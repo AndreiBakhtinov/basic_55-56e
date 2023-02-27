@@ -10,15 +10,17 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         .gallery {
+  
             display: flex;
             flex-wrap: wrap;
             gap: 2px;
-            box-sizing: border-box;
+            align-content: flex-start
         }
         .figure {
-            width: calc(100% / 3 - 2px);
+            width: calc(100% / 3 - 4px);
             aspect-ratio: 1;
             line-height: 0;
         }
